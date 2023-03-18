@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=League+Spartan:wght@400;500;700&family=Outfit:wght@700&family=Poppins:wght@100;200;400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background:linear-gradient(to left,rgb(213, 7, 240),rgb(255, 0, 85)) ;
+    background-size: cover;
+    font-family: 'Fraunces', serif;
+
+}
+#container{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(30, 31, 31);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+.temp{
+    /* width: 300px; */
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: 90px;
+}
+.input{
+    height: 40px;
+    width: 250px;
+    display: block;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #fff;
+    caret-color: #fff;
+    border-radius: 5px;
+    color: bisque;
+}
+h2{
+    margin: 10px;
+    color: #fff;
+}
+h1{
+    margin-bottom: 30px;
+    color: antiquewhite;
+}
