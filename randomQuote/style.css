@@ -1,0 +1,55 @@
+body{
+    background-color:#3b63b3;
+    width: 100%;
+    height: 100vh;
+    max-height: 600px;
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 90%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+     box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+    position: absolute;
+}
+.box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    overflow:scroll;
+}
+button{
+    width: 7rem;
+    height: 2rem;
+    background-color: #3b63b3;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    cursor: pointer;
+    margin: 0px auto;
+    position: relative;
+    bottom:1px;
+    margin-top: 1rem;
+}
+#quote{
+    width: 100%;
+    height:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#span{
+   margin: 0px auto 2rem auto;
+   padding-left: 180px;
+}
+#author{
+    opacity: 90%;
+}
+@media(max-heigth:)
